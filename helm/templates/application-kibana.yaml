@@ -16,4 +16,4 @@ spec:
       valueFiles:
       - values.yaml
     repoURL: https://helm.elastic.co
-    targetRevision: master
+    targetRevision: 7.6.1

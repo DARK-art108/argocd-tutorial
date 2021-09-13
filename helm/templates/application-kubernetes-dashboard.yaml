@@ -16,4 +16,4 @@ spec:
       valueFiles:
       - values.yaml
     repoURL: https://kubernetes-charts.storage.googleapis.com/
-    targetRevision: master
+    targetRevision: 1.10.1
