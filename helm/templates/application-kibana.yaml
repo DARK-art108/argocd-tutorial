@@ -5,12 +5,12 @@ metadata:
   namespace: argocd
   finalizers:
   - resources-finalizer.argocd.argoproj.io
-  replicaCount: 2
 spec:
   destination:
     namespace: elasticsearch
     server: {{ .Values.cluster }}
   project: {{ .Values.project }}
+  replicaCount: 2
   source:
     chart: kibana
     helm:
