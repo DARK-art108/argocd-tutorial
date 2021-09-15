@@ -10,7 +10,6 @@ spec:
     namespace: elasticsearch
     server: {{ .Values.cluster }}
   project: {{ .Values.project }}
-  replicaCount: 2
   source:
     chart: kibana
     helm:
